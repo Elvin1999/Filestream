@@ -90,7 +90,7 @@ namespace Lesson26_11_2018
         {
 
             Controller cont = new Controller();
-            cont.Run();
+            cont.Run();//self
             //DirectoryInfo info = new DirectoryInfo(@"C:\Users\Jama_yw17\source\repos\Lesson26 11 2018");
             //if (info.Exists)
             //{
@@ -102,6 +102,58 @@ namespace Lesson26_11_2018
             //    Console.WriteLine("Not");
             //}
 
+
+            //List<string> list = new List<string>();
+            //using (StreamReader strr = new StreamReader("file.txt"))
+            //{
+            //    // Console.WriteLine(strr.ReadToEnd());
+            //    var collection = strr.ReadToEnd().Split(' ');
+            //    // Console.WriteLine(collection[0]);
+            //    int count = 0; int index = -1;
+            //    for (int i = 0; i < collection.Length; i++)
+            //    {
+            //        for (int k = 0; k < collection.Length; k++)
+            //        {
+            //            if (collection[i] == collection[k])
+            //            {
+            //                ++count;
+            //            }
+            //        }
+            //        if (count != 1)
+            //        {
+
+            //            list.Add(collection[i] + "_d ");
+            //            index = i;
+            //        }
+            //        count = 0;
+            //    }
+            //    foreach (var item in list)
+            //    {
+            //        count++;
+
+            //        Console.Write(item);
+            //    }
+            //    Console.WriteLine(count);
+
+            //}
+            //string nnew = "";
+            //foreach (var item in list)
+            //{
+            //    nnew += item;
+            //}
+            //using (StreamWriter strw = new StreamWriter("file.txt"))
+            //{
+            //    strw.WriteLine(nnew);
+            //}
+
+            ///2
+            //string path = Directory.GetCurrentDirectory();
+            //DirectoryInfo folder = new DirectoryInfo(path);
+            //var collection = folder.GetFiles();
+            //foreach (var item in collection)
+            //{
+            //    Console.WriteLine(item.Name);
+            //}
 
         }
     }
